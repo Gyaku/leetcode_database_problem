@@ -6,10 +6,10 @@ Time   : 2023-3-26
 
 Users
 
-| Column Name    | Type    
----｜---
-| user_id        | int     
-| name           | varchar 
+ ｜Column Name | Type ｜   
+ ｜---｜---｜
+ ｜user_id        | int   ｜  
+ ｜name           | varchar ｜
 user_id 是该表的主键。<br>
 该表包含用户的 ID 和名字。名字仅由小写和大写字符组成。<br>
  
