@@ -67,8 +67,7 @@ _Users table_:
  ● UPPER 变为大写 ● LOWER 变为小写 ● LENGTH 获取字符串长度
  
  
- sql
- --
+##sql
  
 ####_SUBSTRING_
  
