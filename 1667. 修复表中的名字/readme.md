@@ -1,6 +1,6 @@
-Source : https://leetcode.com/problems/second-highest-salary/
-Author : gyaku
-Time   : 2023-3-26
+Source : https://leetcode.com/problems/second-highest-salary/<br>
+Author : gyaku<br>
+Time   : 2023-3-26<br>
 
 *Users*
 
@@ -66,15 +66,18 @@ _Users table_:
  CONCAT 用来拼接字符串 ● LEFT 从左边截取字符 ● RIGHT 从右边截取字符 
  ● UPPER 变为大写 ● LOWER 变为小写 ● LENGTH 获取字符串长度
  
- SUBSTRING
+ 
+ sql
  --
+ 
+ #####SUBSTRING
+ 
  
  select user_id, concat(upper(left(name, 1)), lower(SUBSTRING(name, 2, length(name)))) as name
  from Users
  order by user_id
  
- right
- --
+ #####right
  
  select user_id, concat(upper(left(name, 1)), lower(right(name, length(name)-1))) as name
  from Users
